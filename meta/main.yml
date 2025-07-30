@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  namespace: plopoyop
+  role_name: zoraxy
+  description: Install & configure Zoraxy reverse proxy
+  author: Clément Hubert
+
+  issue_tracker_url: https://github.com/plopoyop/ansible-role-zoraxy/issues
+
+  license: MLP2
+
+  min_ansible_version: "2.1"
+
+  galaxy_tags:
+    - zoraxy
+    - homelab
+    - proxy
+    - http
+    - tcp
+
+dependencies: []
