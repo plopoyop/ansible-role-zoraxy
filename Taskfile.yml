@@ -7,6 +7,11 @@ tasks:
       - task -l
     silent: true
 
+  prepare:
+    desc: "Prepare development environment"
+    cmds:
+      - task: pre-commit
+
   pre-commit:
     desc: "Install pre-commit hooks"
     cmds:
