@@ -1,0 +1,37 @@
+---
+- name: "Create Zoraxy group"
+  ansible.builtin.group:
+    name: "{{ zoraxy_system_group }}"
+    system: true
+
+- name: "Create Zoraxy user"
+  ansible.builtin.user:
+    name: "{{ zoraxy_system_user }}"
+    group: "{{ zoraxy_system_group }}"
+    create_home: false
+    shell: "/usr/sbin/nologin"
+    system: true
+
+- name: "Check if already installed"
+  ansible.builtin.stat:
+    path: "{{ zoraxy_executable_path }}"
+  register: zoraxy_exec
+
+- name: "Get version if zoraxy is installed"
+  when: zoraxy_exec.stat.exists
+  block:
+    - name: "Get version"
+      ansible.builtin.command: "{{ zoraxy_executable_path }} -version"
+      failed_when: false
+      changed_when: false
+      check_mode: false
+      register: zoraxy_output
+
+    - name: "Set current installed version"
+      ansible.builtin.set_fact:
+        zoraxy_current_version: "{{ zoraxy_output.stdout_lines[0] | regex_search('^Zoraxy \\- Version ([0-9]\\.[0-9]\\.[0-9])$', '\\1') | first }}"
+
+- name: "Check if admin is already created"
+  ansible.builtin.stat:
+    path: "{{ zoraxy_admin_flag }}"
+  register: zoraxy_admin_flag_st

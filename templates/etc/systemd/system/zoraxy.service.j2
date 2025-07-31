@@ -1,0 +1,17 @@
+[Unit]
+Description=Zoraxy Reverse Proxy Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User={{ zoraxy_system_user }}
+Group={{ zoraxy_system_group }}
+WorkingDirectory={{ zoraxy_install_path }}
+EnvironmentFile={{ zoraxy_service_config_file_path }}
+ExecStart={{ zoraxy_executable_path }} $OPTIONS
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

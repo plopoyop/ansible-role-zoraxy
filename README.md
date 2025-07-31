@@ -1,38 +1,140 @@
-Role Name
-=========
+# plopoyop.zoraxy
 
-A brief description of the role goes here.
+Install &amp; configure Zoraxy reverse proxy
 
-Requirements
-------------
+## Table of content
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+- [Requirements](#requirements)
+- [Default Variables](#default-variables)
+  - [zoraxy_admin_password](#zoraxy_admin_password)
+  - [zoraxy_admin_user](#zoraxy_admin_user)
+  - [zoraxy_disable_auth](#zoraxy_disable_auth)
+  - [zoraxy_listen_port](#zoraxy_listen_port)
+  - [zoraxy_service_enabled](#zoraxy_service_enabled)
+  - [zoraxy_service_state](#zoraxy_service_state)
+  - [zoraxy_system_group](#zoraxy_system_group)
+  - [zoraxy_system_user](#zoraxy_system_user)
+  - [zoraxy_version_full](#zoraxy_version_full)
+  - [zoraxy_version_short](#zoraxy_version_short)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Author](#author)
 
-Role Variables
---------------
+---
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+## Requirements
 
-Dependencies
-------------
+- Minimum Ansible version: `2.1`
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
 
-Example Playbook
-----------------
+## Default Variables
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+### zoraxy_admin_password
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+Admin password
 
-License
--------
+#### Default value
 
-BSD
+```YAML
+zoraxy_admin_password: admin
+```
 
-Author Information
-------------------
+### zoraxy_admin_user
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Admin username to create
+
+#### Default value
+
+```YAML
+zoraxy_admin_user: admin
+```
+
+### zoraxy_disable_auth
+
+Disable administration auth
+
+#### Default value
+
+```YAML
+zoraxy_disable_auth: false
+```
+
+### zoraxy_listen_port
+
+Zoraxy administration port
+
+#### Default value
+
+```YAML
+zoraxy_listen_port: 8000
+```
+
+### zoraxy_service_enabled
+
+#### Default value
+
+```YAML
+zoraxy_service_enabled: true
+```
+
+### zoraxy_service_state
+
+Zoraxy service state
+
+#### Default value
+
+```YAML
+zoraxy_service_state: started
+```
+
+### zoraxy_system_group
+
+System group name to create
+
+#### Default value
+
+```YAML
+zoraxy_system_group: zoraxy
+```
+
+### zoraxy_system_user
+
+Enable zoraxy service on boot
+
+#### Default value
+
+```YAML
+zoraxy_system_user: zoraxy
+```
+
+### zoraxy_version_full
+
+#### Default value
+
+```YAML
+zoraxy_version_full: '{{ zoraxy_version_short }}r2'
+```
+
+### zoraxy_version_short
+
+Zoraxy version to install
+
+#### Default value
+
+```YAML
+zoraxy_version_short: 3.2.5
+```
+
+
+
+## Dependencies
+
+None.
+
+## License
+
+MLP2
+
+## Author
+
+Clément Hubert

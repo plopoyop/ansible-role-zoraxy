@@ -1,2 +1,11 @@
 ---
 # vars file for plopoyop.zoraxy
+zoraxy_download_url: "https://github.com/tobychui/zoraxy/releases/download/v{{ zoraxy_version_full }}/zoraxy_linux_amd64"
+zoraxy_install_path: "/opt/zoraxy"
+zoraxy_executable_path: "{{ zoraxy_install_path }}/zoraxy"
+
+zoraxy_service_name: "zoraxy"
+zoraxy_service_file_path: "/etc/systemd/system/{{ zoraxy_service_name }}.service"
+zoraxy_service_config_file_path: "/etc/default/zoraxy.conf"
+
+zoraxy_admin_flag: "{{ zoraxy_install_path }}/.ansible_admin_created"

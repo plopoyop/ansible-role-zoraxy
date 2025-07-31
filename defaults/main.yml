@@ -1,2 +1,60 @@
 ---
-# defaults file for plopoyop.zoraxy
+# @var zoraxy_system_user
+# @var zoraxy_system_user:type: string
+# @var zoraxy_system_user:description: >
+# System user name to create
+zoraxy_system_user: "zoraxy"
+
+# @var zoraxy_system_group
+# @var zoraxy_system_group:type: string
+# @var zoraxy_system_group:description: >
+# System group name to create
+zoraxy_system_group: "zoraxy"
+
+# @var zoraxy_version_short
+# @var zoraxy_version_short:type: string
+# @var zoraxy_version_short:description: >
+# Zoraxy version to install
+zoraxy_version_short: "3.2.5"
+
+# @var zoraxy_system_user
+# @var zoraxy_system_user:type: string
+# @var zoraxy_system_user:description: >
+# Zoraxy full version
+zoraxy_version_full: "{{ zoraxy_version_short }}r2"
+
+# @var zoraxy_service_state
+# @var zoraxy_service_state:type: string
+# @var zoraxy_service_state:description: >
+# Zoraxy service state
+zoraxy_service_state: "started"
+
+# @var zoraxy_system_user
+# @var zoraxy_system_user:type: boolean
+# @var zoraxy_system_user:description: >
+# Enable zoraxy service on boot
+zoraxy_service_enabled: true
+
+# @var zoraxy_listen_port
+# @var zoraxy_listen_port:type: string
+# @var zoraxy_listen_port:description: >
+# Zoraxy administration port
+zoraxy_listen_port: 8000
+
+# @var zoraxy_disable_auth
+# @var zoraxy_disable_auth:type: boolean
+# @var zoraxy_disable_auth:description: >
+# Disable administration auth
+zoraxy_disable_auth: false
+
+# @var zoraxy_admin_user
+# @var zoraxy_admin_user:type: string
+# @var zoraxy_admin_user:description: >
+# Admin username to create
+zoraxy_admin_user: "admin"
+
+# @var zoraxy_admin_password
+# @var zoraxy_admin_password:type: string
+# @var zoraxy_admin_password:description: >
+# Admin password
+zoraxy_admin_password: "admin"

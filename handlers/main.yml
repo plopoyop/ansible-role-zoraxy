@@ -1,2 +1,10 @@
 ---
-# handlers file for plopoyop.zoraxy
+- name: "Restart Zoraxy"
+  ansible.builtin.service:
+    name: "{{ zoraxy_service_name }}"
+    state: "restarted"
+  when: zoraxy_service_state == "started" and zoraxy_service_enabled
+
+- name: "Reload Systemd"
+  ansible.builtin.systemd_service:
+    daemon_reload: true

@@ -1,0 +1,53 @@
+---
+- name: Verify
+  hosts: all
+  tasks:
+    - name: "Check group has been created"
+      ansible.builtin.group:
+        name: "zoraxyg"
+        state: "present"
+      check_mode: true
+      register: "zoraxy_group_check"
+
+    - name: "Check user has been created"
+      ansible.builtin.user:
+        name: "zoraxyu"
+        group: "zoraxyg"
+        create_home: false
+        system: true
+      check_mode: true
+      register: "zoraxy_user_check"
+
+    - name: "Verify zoraxy service is running"
+      ansible.builtin.service:
+        name: "zoraxy"
+        state: "started"
+        enabled: true
+      failed_when: false
+      check_mode: true
+      register: "zoraxy_service"
+
+    - name: "Check install"
+      ansible.builtin.stat:
+        path: "/opt/zoraxy/zoraxy"
+      register: "st_bin"
+
+    - name: "Check service config file"
+      ansible.builtin.stat:
+        path: "/etc/default/zoraxy.conf"
+      register: "st_service_config"
+
+    - name: "Gather facts on listening ports"
+      community.general.listen_ports_facts:
+
+    - name: "Assert conditions"
+      ansible.builtin.assert:
+        that:
+          - not zoraxy_group_check.changed
+          - not zoraxy_user_check.changed
+          - not zoraxy_service.changed
+          - st_bin.stat.mode == "0750"
+          - st_service_config.stat.mode == "0640"
+          - (ansible_facts.tcp_listen | selectattr('port', 'equalto', 8000) | length ) > 0
+        success_msg: "All assertions passed!"
+        fail_msg: "Some assertions failed!"
