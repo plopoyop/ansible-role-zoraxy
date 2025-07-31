@@ -1,0 +1,11 @@
+---
+- name: Converge
+  hosts: all
+  gather_facts: false
+  vars:
+    zoraxy_system_user: "zoraxyu"
+    zoraxy_system_group: "zoraxyg"
+  tasks:
+    - name: "Import role"
+      ansible.builtin.import_role:
+        name: "plopoyop.zoraxy"
