@@ -1,0 +1,30 @@
+---
+- name: "Ensure installation path exists"
+  ansible.builtin.file:
+    path: "{{ zoraxy_install_path }}"
+    state: "directory"
+    owner: "{{ zoraxy_system_user }}"
+    group: "{{ zoraxy_system_group }}"
+    mode: "0750"
+
+- name: "Download Zoraxy"
+  ansible.builtin.get_url:
+    url: "{{ zoraxy_download_url }}"
+    dest: "{{ zoraxy_executable_path }}"
+    owner: "{{ zoraxy_system_user }}"
+    group: "{{ zoraxy_system_group }}"
+    mode: "0750"
+  ignore_errors: "{{ ansible_check_mode }}"
+  notify: "Restart Zoraxy"
+  when: ( not zoraxy_exec.stat.exists ) or ( zoraxy_current_version != zoraxy_version_full)
+
+- name: "Create systemd service file"
+  ansible.builtin.template:
+    src: "etc/systemd/system/zoraxy.service.j2"
+    dest: "{{ zoraxy_service_file_path }}"
+    owner: "{{ zoraxy_system_user }}"
+    group: "{{ zoraxy_system_group }}"
+    mode: "0640"
+  notify:
+    - "Reload Systemd"
+    - "Restart Zoraxy"

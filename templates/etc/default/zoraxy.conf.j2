@@ -1,0 +1,6 @@
+{{ ansible_managed | comment }}
+
+OPTIONS="-port=:{{ zoraxy_listen_port }}
+{%- if zoraxy_disable_auth %}
+ -noauth=true
+{%- endif -%}"

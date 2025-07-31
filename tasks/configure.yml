@@ -1,0 +1,56 @@
+---
+- name: "Create service config file"
+  ansible.builtin.template:
+    src: "etc/default/zoraxy.conf.j2"
+    dest: "{{ zoraxy_service_config_file_path }}"
+    owner: "{{ zoraxy_system_user }}"
+    group: "{{ zoraxy_system_group }}"
+    mode: "0640"
+  notify:
+    - "Restart Zoraxy"
+
+- name: "Ensure service is in correct state"
+  ansible.builtin.service:
+    name: "{{ zoraxy_service_name }}"
+    state: "{{ zoraxy_service_state }}"
+    enabled: "{{ zoraxy_service_enabled }}"
+  when: not ansible_check_mode
+
+- name: "Create admin user"
+  when: (not zoraxy_admin_flag_st.stat.exists) and (not zoraxy_disable_auth)
+  block:
+    - name: "Get index page"
+      ansible.builtin.uri:
+        url: "http://localhost:8000/"
+        validate_certs: false
+        return_content: true
+      register: index
+      when: not zoraxy_disable_auth
+
+    - name: "Set CSRF token"
+      ansible.builtin.set_fact:
+        zoraxy_csrf_token: "{{ index.content | regex_search('zoraxy.csrf.Token\" content=\"(.*==)\">', '\\1') }}"
+
+    - name: "Register admin user"
+      ansible.builtin.uri:
+        method: POST
+        url: "http://localhost:8000/api/auth/register"
+        headers:
+          Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+          Cookie: "{{ index.cookies_string }}"
+          X-CSRF-Token: "{{ zoraxy_csrf_token | first }}"
+        body: 'username={{ zoraxy_admin_user }}&password={{ zoraxy_admin_password }}'
+        validate_certs: false
+        body_format: raw
+      register: login
+      when: not zoraxy_disable_auth
+
+    - name: "Create flag file"
+      ansible.builtin.file:
+        path: "{{ zoraxy_admin_flag }}"
+        state: "touch"
+        owner: "{{ zoraxy_system_user }}"
+        group: "{{ zoraxy_system_group }}"
+        mode: "0640"
+        modification_time: preserve
+        access_time: preserve
