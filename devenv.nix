@@ -8,12 +8,12 @@
     pkgs.git
     pkgs.glibcLocales
     pkgs.go-task
-    pkgs.opentofu
     pkgs.podman
     pkgs.pre-commit
-    pkgs.python312Packages.molecule
-    pkgs.python312Packages.molecule-plugins
-    pkgs.python312Packages.molecule
+    pkgs.python313Packages.molecule
+    pkgs.python313Packages.molecule-plugins
+    pkgs.python313Packages.molecule
+    pkgs.python313Packages.rpds-py
     pkgs.yamllint
  ];
 }
