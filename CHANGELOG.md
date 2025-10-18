@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/1.1.0) (2025-10-18)
+
+[Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/1.0.0...1.1.0)
+
+## 🚀 New Features
+
+- remove devenv et migrate to devbox [\#4](https://github.com/plopoyop/ansible-role-zoraxy/pull/4) ([plopoyop](https://github.com/plopoyop))
+
 ## [1.0.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/1.0.0) (2025-07-31)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2c1d79cc6cf382a06f5d17e5ac3976ea77fc4a0d...1.0.0)
