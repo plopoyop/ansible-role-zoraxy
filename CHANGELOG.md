@@ -9,6 +9,11 @@
 - add renovate config && workflow [\#5](https://github.com/plopoyop/ansible-role-zoraxy/pull/5) ([plopoyop](https://github.com/plopoyop))
 - remove devenv et migrate to devbox [\#4](https://github.com/plopoyop/ansible-role-zoraxy/pull/4) ([plopoyop](https://github.com/plopoyop))
 
+## ⚙️ Dependencies
+
+- feat\(ci\): update jetify-com/devbox-install-action action \(v0.12.0 → v0.14.0\) [\#7](https://github.com/plopoyop/ansible-role-zoraxy/pull/7) ([plopoyop](https://github.com/plopoyop))
+- fix\(ci\): update renovatebot/github-action action \(v43.0.2 → v43.0.17\) [\#6](https://github.com/plopoyop/ansible-role-zoraxy/pull/6) ([plopoyop](https://github.com/plopoyop))
+
 ## [1.0.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/1.0.0) (2025-07-31)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2c1d79cc6cf382a06f5d17e5ac3976ea77fc4a0d...1.0.0)
