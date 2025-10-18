@@ -6,6 +6,7 @@
 
 ## 🚀 New Features
 
+- add renovate config && workflow [\#5](https://github.com/plopoyop/ansible-role-zoraxy/pull/5) ([plopoyop](https://github.com/plopoyop))
 - remove devenv et migrate to devbox [\#4](https://github.com/plopoyop/ansible-role-zoraxy/pull/4) ([plopoyop](https://github.com/plopoyop))
 
 ## [1.0.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/1.0.0) (2025-07-31)
