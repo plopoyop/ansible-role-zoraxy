@@ -16,9 +16,7 @@ jobs:
       - uses: cachix/cachix-action@v16
         with:
           name: devenv
-      - name: Install devenv.sh
-        run: nix profile install nixpkgs#devenv
-      - name: Prepare env
-        run: devenv shell task prepare
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.12.0
       - name: Run molecule test
-        run: devenv shell task test
+        run: devbox run -- task test
