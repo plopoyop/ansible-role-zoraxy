@@ -14,6 +14,7 @@
 - feat\(ci\)!: Update actions/checkout action \(v5 → v6\) [\#25](https://github.com/plopoyop/ansible-role-zoraxy/pull/25) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update podman \(5.6.2 → 5.7.0\) [\#24](https://github.com/plopoyop/ansible-role-zoraxy/pull/24) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update go-task \(3.45.4 → 3.45.5\) [\#23](https://github.com/plopoyop/ansible-role-zoraxy/pull/23) ([plopoyop](https://github.com/plopoyop))
+- fix\(deps\): update git \(2.51.0 → 2.51.2\) [\#22](https://github.com/plopoyop/ansible-role-zoraxy/pull/22) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\)!: Update pre-commit hook pre-commit/pre-commit-hooks \(v5.0.0 → v6.0.0\) [\#16](https://github.com/plopoyop/ansible-role-zoraxy/pull/16) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\)!: Update hugo19941994/delete-draft-releases action \(v1.0.1 → v2.0.0\) [\#14](https://github.com/plopoyop/ansible-role-zoraxy/pull/14) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\)!: Update actions/checkout action \(v4 → v5\) [\#13](https://github.com/plopoyop/ansible-role-zoraxy/pull/13) ([plopoyop](https://github.com/plopoyop))
