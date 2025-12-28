@@ -24,6 +24,10 @@
 - feat\(ci\): update jetify-com/devbox-install-action action \(v0.12.0 → v0.14.0\) [\#7](https://github.com/plopoyop/ansible-role-zoraxy/pull/7) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v43.0.2 → v43.0.17\) [\#6](https://github.com/plopoyop/ansible-role-zoraxy/pull/6) ([plopoyop](https://github.com/plopoyop))
 
+**Merged pull requests:**
+
+- Revert "feat\(deps\)!: Update pre-commit \(3.7.1 → 4.3.0\)" [\#27](https://github.com/plopoyop/ansible-role-zoraxy/pull/27) ([plopoyop](https://github.com/plopoyop))
+
 ## [1.0.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/1.0.0) (2025-07-31)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2c1d79cc6cf382a06f5d17e5ac3976ea77fc4a0d...1.0.0)
