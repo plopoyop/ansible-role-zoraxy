@@ -1,6 +1,6 @@
 ---
 # vars file for plopoyop.zoraxy
-zoraxy_download_url: "https://github.com/tobychui/zoraxy/releases/download/v{{ zoraxy_version_full }}/zoraxy_linux_amd64"
+zoraxy_download_url: "https://github.com/tobychui/zoraxy/releases/download/v{{ zoraxy_version }}/zoraxy_linux_amd64"
 zoraxy_install_path: "/opt/zoraxy"
 zoraxy_executable_path: "{{ zoraxy_install_path }}/zoraxy"
 
