@@ -21,10 +21,10 @@
         "README.md"
       ],
       "matchStrings": [
-        "zoraxy_version_short:\\s*(?<quote>\")?(?<currentValue>[0-9\\.]+)\"?"
+        "zoraxy_version:\\s*(?<quote>\")?(?<currentValue>[0-9\\.]+)\"?"
       ],
       "depNameTemplate": "tobychui/zoraxy",
-      "autoReplaceStringTemplate": "zoraxy_version_short: {{#if quote}}\"{{newValue}}\"{{else}}{{newValue}}{{/if}}",
+      "autoReplaceStringTemplate": "zoraxy_version: {{#if quote}}\"{{newValue}}\"{{else}}{{newValue}}{{/if}}",
       "datasourceTemplate": "github-releases"
     }
   ]

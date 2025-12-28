@@ -11,17 +11,11 @@ zoraxy_system_user: "zoraxy"
 # System group name to create
 zoraxy_system_group: "zoraxy"
 
-# @var zoraxy_version_short
-# @var zoraxy_version_short:type: string
-# @var zoraxy_version_short:description: >
+# @var zoraxy_version
+# @var zoraxy_version:type: string
+# @var zoraxy_version:description: >
 # Zoraxy version to install
-zoraxy_version_short: "3.2.5"
-
-# @var zoraxy_system_user
-# @var zoraxy_system_user:type: string
-# @var zoraxy_system_user:description: >
-# Zoraxy full version
-zoraxy_version_full: "{{ zoraxy_version_short }}r2"
+zoraxy_version: "3.3.0"
 
 # @var zoraxy_service_state
 # @var zoraxy_service_state:type: string

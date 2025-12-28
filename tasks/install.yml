@@ -16,7 +16,7 @@
     mode: "0750"
   ignore_errors: "{{ ansible_check_mode }}"
   notify: "Restart Zoraxy"
-  when: ( not zoraxy_exec.stat.exists ) or ( zoraxy_current_version != zoraxy_version_full)
+  when: ( not zoraxy_exec.stat.exists ) or ( zoraxy_current_version != zoraxy_version)
 
 - name: "Create systemd service file"
   ansible.builtin.template:
