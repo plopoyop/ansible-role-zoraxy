@@ -11,6 +11,7 @@
 
 ## ⚙️ Dependencies
 
+- update zoraxy && change version handling [\#28](https://github.com/plopoyop/ansible-role-zoraxy/pull/28) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\)!: Update actions/checkout action \(v5 → v6\) [\#25](https://github.com/plopoyop/ansible-role-zoraxy/pull/25) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update podman \(5.6.2 → 5.7.0\) [\#24](https://github.com/plopoyop/ansible-role-zoraxy/pull/24) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update go-task \(3.45.4 → 3.45.5\) [\#23](https://github.com/plopoyop/ansible-role-zoraxy/pull/23) ([plopoyop](https://github.com/plopoyop))
