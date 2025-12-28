@@ -4,7 +4,7 @@
         "python312Packages.ansible@11.5.0",
         "ansible-doctor@7.2.1",
         "ansible-lint@25.4.0",
-        "git@2.51.0",
+        "git@2.51.2",
         "glibcLocales@2.40-66",
         "go-task@3.45.5",
         "podman@5.7.0",
