@@ -11,6 +11,7 @@
 ## ⚙️ Dependencies
 
 - feat\(deps\)!: Update python313Packages.ansible \(11.5.0 → 13.1.0\) [\#33](https://github.com/plopoyop/ansible-role-zoraxy/pull/33) ([plopoyop](https://github.com/plopoyop))
+- feat\(deps\): update python313packages.molecule \(25.5.0 → 25.12.0\) [\#32](https://github.com/plopoyop/ansible-role-zoraxy/pull/32) ([plopoyop](https://github.com/plopoyop))
 
 ## [2.0.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.0.0) (2025-12-28)
 
