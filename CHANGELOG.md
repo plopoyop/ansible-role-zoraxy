@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.0) (2026-01-04)
+
+[Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2.0.0...2.1.0)
+
+## 🚀 New Features
+
+- Update to python 3.13 [\#30](https://github.com/plopoyop/ansible-role-zoraxy/pull/30) ([plopoyop](https://github.com/plopoyop))
+
 ## [2.0.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.0.0) (2025-12-28)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/1.0.0...2.0.0)
