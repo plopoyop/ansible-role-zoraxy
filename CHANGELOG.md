@@ -12,6 +12,7 @@
 
 - feat\(deps\)!: Update python313Packages.ansible \(11.5.0 → 13.1.0\) [\#33](https://github.com/plopoyop/ansible-role-zoraxy/pull/33) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update python313packages.molecule \(25.5.0 → 25.12.0\) [\#32](https://github.com/plopoyop/ansible-role-zoraxy/pull/32) ([plopoyop](https://github.com/plopoyop))
+- feat\(deps\): update pre-commit hook ansible/ansible-lint \(v25.6.1 → v25.9.2\) [\#10](https://github.com/plopoyop/ansible-role-zoraxy/pull/10) ([plopoyop](https://github.com/plopoyop))
 
 **Merged pull requests:**
 
