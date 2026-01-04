@@ -8,6 +8,10 @@
 
 - Update to python 3.13 [\#30](https://github.com/plopoyop/ansible-role-zoraxy/pull/30) ([plopoyop](https://github.com/plopoyop))
 
+## ⚙️ Dependencies
+
+- feat\(deps\)!: Update python313Packages.ansible \(11.5.0 → 13.1.0\) [\#33](https://github.com/plopoyop/ansible-role-zoraxy/pull/33) ([plopoyop](https://github.com/plopoyop))
+
 ## [2.0.0](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.0.0) (2025-12-28)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/1.0.0...2.0.0)
