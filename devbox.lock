@@ -1,131 +1,131 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "ansible-doctor@7.2.1": {
-      "last_modified": "2025-10-07T08:41:47Z",
-      "resolved": "github:NixOS/nixpkgs/bce5fe2bb998488d8e7e7856315f90496723793c#ansible-doctor",
+    "ansible-doctor@8.0.1": {
+      "last_modified": "2025-12-25T09:06:15Z",
+      "resolved": "github:NixOS/nixpkgs/3c1016e6acd16ad96053116d0d3043029c9e2649#ansible-doctor",
       "source": "devbox-search",
-      "version": "7.2.1",
+      "version": "8.0.1",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/8nm2fid4zy358zkmp7hk4ah3wcqvrbk7-ansible-doctor-7.2.1",
+              "path": "/nix/store/9lq342wf299ghdbw5m1f8010dy7d3jxg-ansible-doctor-8.0.1",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/l8a0rjqz0nzpnwiz11h7bj0l70n5fglz-ansible-doctor-7.2.1-dist"
+              "path": "/nix/store/dc6mrscagx04w6qyyc4axb8y4dmlx9jk-ansible-doctor-8.0.1-dist"
             }
           ],
-          "store_path": "/nix/store/8nm2fid4zy358zkmp7hk4ah3wcqvrbk7-ansible-doctor-7.2.1"
+          "store_path": "/nix/store/9lq342wf299ghdbw5m1f8010dy7d3jxg-ansible-doctor-8.0.1"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/7v8ny5d7p120f0wiafxv1nyw0js1k6rq-ansible-doctor-7.2.1",
+              "path": "/nix/store/7mrh2gf9blnpa2hg2aqkz3yr7w3qnfy7-ansible-doctor-8.0.1",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/86jyxcxyf2nc2qh8igz9xhixy7rkli3b-ansible-doctor-7.2.1-dist"
+              "path": "/nix/store/n5cd781gwyzbwnwjz9p16rlvhd4a4whv-ansible-doctor-8.0.1-dist"
             }
           ],
-          "store_path": "/nix/store/7v8ny5d7p120f0wiafxv1nyw0js1k6rq-ansible-doctor-7.2.1"
+          "store_path": "/nix/store/7mrh2gf9blnpa2hg2aqkz3yr7w3qnfy7-ansible-doctor-8.0.1"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/3sm1qfs9yj30hak3lsmvi77rsn5l3nr9-ansible-doctor-7.2.1",
+              "path": "/nix/store/gxnzzac5xsm092mpnkfbd6c1y7vmhhw6-ansible-doctor-8.0.1",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/8hv056djz3alfw2drs1gsz3ia354rl26-ansible-doctor-7.2.1-dist"
+              "path": "/nix/store/kl9fslqz70pxzr7bs8gia5n3cifxi2q5-ansible-doctor-8.0.1-dist"
             }
           ],
-          "store_path": "/nix/store/3sm1qfs9yj30hak3lsmvi77rsn5l3nr9-ansible-doctor-7.2.1"
+          "store_path": "/nix/store/gxnzzac5xsm092mpnkfbd6c1y7vmhhw6-ansible-doctor-8.0.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/9nwkw66cdzw017l07hr6rmw75wl2h9c2-ansible-doctor-7.2.1",
+              "path": "/nix/store/h1m5wfakk8q89n7mrr0k9fbpnakdi0x4-ansible-doctor-8.0.1",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/s3w2hxqvij0y20nypchjn6wc621s1p7c-ansible-doctor-7.2.1-dist"
+              "path": "/nix/store/iyzb5373m8dq01cpszb6y4n9vh778y2y-ansible-doctor-8.0.1-dist"
             }
           ],
-          "store_path": "/nix/store/9nwkw66cdzw017l07hr6rmw75wl2h9c2-ansible-doctor-7.2.1"
+          "store_path": "/nix/store/h1m5wfakk8q89n7mrr0k9fbpnakdi0x4-ansible-doctor-8.0.1"
         }
       }
     },
-    "ansible-lint@25.4.0": {
-      "last_modified": "2025-05-26T17:43:11Z",
-      "resolved": "github:NixOS/nixpkgs/bdc995d3e97cec29eacc8fbe87e66edfea26b861#ansible-lint",
+    "ansible-lint@25.8.2": {
+      "last_modified": "2025-12-25T09:06:15Z",
+      "resolved": "github:NixOS/nixpkgs/3c1016e6acd16ad96053116d0d3043029c9e2649#ansible-lint",
       "source": "devbox-search",
-      "version": "25.4.0",
+      "version": "25.8.2",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/nv5h36j56n7bvbal3i41balsy10lb7h6-ansible-lint-25.4.0",
+              "path": "/nix/store/gi4if5qy8qirglqmggbxc7ln8bgk9skb-ansible-lint-25.8.2",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/qwazpkcs9k96flc4vln645ssjwby5cs5-ansible-lint-25.4.0-dist"
+              "path": "/nix/store/ijin2g8439l5y1hmp47gr6vkp3cvq85a-ansible-lint-25.8.2-dist"
             }
           ],
-          "store_path": "/nix/store/nv5h36j56n7bvbal3i41balsy10lb7h6-ansible-lint-25.4.0"
+          "store_path": "/nix/store/gi4if5qy8qirglqmggbxc7ln8bgk9skb-ansible-lint-25.8.2"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/6sam1chs9mjjrj457s7v9947wki73wq4-ansible-lint-25.4.0",
+              "path": "/nix/store/d2jqciibcz7dqkkk4viql5lmd8jq5s75-ansible-lint-25.8.2",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/2w5nwxkq50i5vr3r0mbnq08dxp73d0sw-ansible-lint-25.4.0-dist"
+              "path": "/nix/store/yaivfj828rx54k5a13hq378l1v97i785-ansible-lint-25.8.2-dist"
             }
           ],
-          "store_path": "/nix/store/6sam1chs9mjjrj457s7v9947wki73wq4-ansible-lint-25.4.0"
+          "store_path": "/nix/store/d2jqciibcz7dqkkk4viql5lmd8jq5s75-ansible-lint-25.8.2"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/a9zbq2f0dsgr5a5mk9276mw3q1l9x3dy-ansible-lint-25.4.0",
+              "path": "/nix/store/n2wwhyg5rnv98bcxzbdxfs71id7gwn5n-ansible-lint-25.8.2",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/fl86bz67mi7jha0qrnm8wz3252zybycx-ansible-lint-25.4.0-dist"
+              "path": "/nix/store/a5cs2xai11q92j8f7nc5gyix9p7xvhpk-ansible-lint-25.8.2-dist"
             }
           ],
-          "store_path": "/nix/store/a9zbq2f0dsgr5a5mk9276mw3q1l9x3dy-ansible-lint-25.4.0"
+          "store_path": "/nix/store/n2wwhyg5rnv98bcxzbdxfs71id7gwn5n-ansible-lint-25.8.2"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/ar903347sskhv44sjnmv8rbchll53whk-ansible-lint-25.4.0",
+              "path": "/nix/store/27vi3pws2g35iik7xvhlfqwimwcsljwz-ansible-lint-25.8.2",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/j04mkzp1c6fnh9i2cpni397s5dab8piw-ansible-lint-25.4.0-dist"
+              "path": "/nix/store/yjf1hh5i5ynh826ngpbg8gy34qynfz08-ansible-lint-25.8.2-dist"
             }
           ],
-          "store_path": "/nix/store/ar903347sskhv44sjnmv8rbchll53whk-ansible-lint-25.4.0"
+          "store_path": "/nix/store/27vi3pws2g35iik7xvhlfqwimwcsljwz-ansible-lint-25.8.2"
         }
       }
     },
@@ -413,9 +413,9 @@
         }
       }
     },
-    "python312Packages.ansible@11.5.0": {
+    "python313Packages.ansible@11.5.0": {
       "last_modified": "2025-06-20T02:24:11Z",
-      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#python312Packages.ansible",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#python313Packages.ansible",
       "source": "devbox-search",
       "version": "11.5.0",
       "systems": {
@@ -423,63 +423,63 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/npldzm62ca1aznxibz9av9g4fx85j1n5-python3.12-ansible-11.5.0",
+              "path": "/nix/store/lk989a1vvl4kw291cbxpx9wjcry6l2vw-python3.13-ansible-11.5.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/8aizaaqydxvphqp2vlik9c3jxj49f0kl-python3.12-ansible-11.5.0-dist"
+              "path": "/nix/store/qhhlpmj7p7kak2j4vqap1vnlas58gw2s-python3.13-ansible-11.5.0-dist"
             }
           ],
-          "store_path": "/nix/store/npldzm62ca1aznxibz9av9g4fx85j1n5-python3.12-ansible-11.5.0"
+          "store_path": "/nix/store/lk989a1vvl4kw291cbxpx9wjcry6l2vw-python3.13-ansible-11.5.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/lxjmr79jxc14j6xdawy6j5ckvmywwxi0-python3.12-ansible-11.5.0",
+              "path": "/nix/store/1cdl8y4vhpjy5qc9q24xjkmw3z5nk6ra-python3.13-ansible-11.5.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/afz07301cz6n0sf5i3f7yvyqrxg2hapf-python3.12-ansible-11.5.0-dist"
+              "path": "/nix/store/zwgarqw3r487mz7nly57b6frdkflbwwv-python3.13-ansible-11.5.0-dist"
             }
           ],
-          "store_path": "/nix/store/lxjmr79jxc14j6xdawy6j5ckvmywwxi0-python3.12-ansible-11.5.0"
+          "store_path": "/nix/store/1cdl8y4vhpjy5qc9q24xjkmw3z5nk6ra-python3.13-ansible-11.5.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/jmxlfzg4xiy3hi3bk6lyhp9agb0faj70-python3.12-ansible-11.5.0",
+              "path": "/nix/store/pf9ch2w50i5jjvb04gdpzapb971rzmdl-python3.13-ansible-11.5.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/kx9iysxfi150xxzldwqjq0k82hnigpvn-python3.12-ansible-11.5.0-dist"
+              "path": "/nix/store/psg40cn9a26wb451iwdfc832nim341y6-python3.13-ansible-11.5.0-dist"
             }
           ],
-          "store_path": "/nix/store/jmxlfzg4xiy3hi3bk6lyhp9agb0faj70-python3.12-ansible-11.5.0"
+          "store_path": "/nix/store/pf9ch2w50i5jjvb04gdpzapb971rzmdl-python3.13-ansible-11.5.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/iyfnyr1argkvd25q7hs4jlrsmv3zk6kq-python3.12-ansible-11.5.0",
+              "path": "/nix/store/b9b5rf9q7sv86sjb2iz0gd27036vj2rp-python3.13-ansible-11.5.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/9j11vxrky101ii63c69p48hndqm09vj7-python3.12-ansible-11.5.0-dist"
+              "path": "/nix/store/dszil0ihh30i8py5al2my4m62wc0rh1x-python3.13-ansible-11.5.0-dist"
             }
           ],
-          "store_path": "/nix/store/iyfnyr1argkvd25q7hs4jlrsmv3zk6kq-python3.12-ansible-11.5.0"
+          "store_path": "/nix/store/b9b5rf9q7sv86sjb2iz0gd27036vj2rp-python3.13-ansible-11.5.0"
         }
       }
     },
-    "python312Packages.molecule-plugins@23.5.3": {
-      "last_modified": "2025-10-07T08:41:47Z",
-      "resolved": "github:NixOS/nixpkgs/bce5fe2bb998488d8e7e7856315f90496723793c#python312Packages.molecule-plugins",
+    "python313Packages.molecule-plugins@23.5.3": {
+      "last_modified": "2025-11-23T21:50:36Z",
+      "resolved": "github:NixOS/nixpkgs/ee09932cedcef15aaf476f9343d1dea2cb77e261#python313Packages.molecule-plugins",
       "source": "devbox-search",
       "version": "23.5.3",
       "systems": {
@@ -487,63 +487,63 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/5x1cvjssj4cw3wdjrdc82ck8k256h7r8-python3.12-molecule-plugins-23.5.3",
+              "path": "/nix/store/6pxc2l1m35ma1qx3r6sj8zqxans4aglb-python3.13-molecule-plugins-23.5.3",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/hj6simz8kprlhaf7dav9cgb8md6k0hd0-python3.12-molecule-plugins-23.5.3-dist"
+              "path": "/nix/store/vwp1a8kk9l2bi9znlw6mx3pc4w02biw3-python3.13-molecule-plugins-23.5.3-dist"
             }
           ],
-          "store_path": "/nix/store/5x1cvjssj4cw3wdjrdc82ck8k256h7r8-python3.12-molecule-plugins-23.5.3"
+          "store_path": "/nix/store/6pxc2l1m35ma1qx3r6sj8zqxans4aglb-python3.13-molecule-plugins-23.5.3"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/28i0v51w1x162fdly85g299cwinjjk6m-python3.12-molecule-plugins-23.5.3",
+              "path": "/nix/store/zff1k8qxa07rgz3bl03bmcj7j2p9jarm-python3.13-molecule-plugins-23.5.3",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/q33msrlc52msqnm2l6977khwv08dp5az-python3.12-molecule-plugins-23.5.3-dist"
+              "path": "/nix/store/lvsnc0155zym1pr66qj75dndd5740c57-python3.13-molecule-plugins-23.5.3-dist"
             }
           ],
-          "store_path": "/nix/store/28i0v51w1x162fdly85g299cwinjjk6m-python3.12-molecule-plugins-23.5.3"
+          "store_path": "/nix/store/zff1k8qxa07rgz3bl03bmcj7j2p9jarm-python3.13-molecule-plugins-23.5.3"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/faldkf9j7dn3qzwa8dyc0hjmdjbh6gny-python3.12-molecule-plugins-23.5.3",
+              "path": "/nix/store/93q7phqp2kq0jw9a1555w1hgp97cyznr-python3.13-molecule-plugins-23.5.3",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/99clxplkazyvvhwhrwsrbd76zvdyp33z-python3.12-molecule-plugins-23.5.3-dist"
+              "path": "/nix/store/h5cwmml8fhw0g460pqlp18aivxszkagw-python3.13-molecule-plugins-23.5.3-dist"
             }
           ],
-          "store_path": "/nix/store/faldkf9j7dn3qzwa8dyc0hjmdjbh6gny-python3.12-molecule-plugins-23.5.3"
+          "store_path": "/nix/store/93q7phqp2kq0jw9a1555w1hgp97cyznr-python3.13-molecule-plugins-23.5.3"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/6cwrshwzg2xss3pf4qwyz68nrpi1fjqg-python3.12-molecule-plugins-23.5.3",
+              "path": "/nix/store/w3r837iv0xz59d9vskg6swl618ni6ly3-python3.13-molecule-plugins-23.5.3",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/7nmjxl9ad4n9cmwq3vzqqyakv5vq6yvy-python3.12-molecule-plugins-23.5.3-dist"
+              "path": "/nix/store/djvxbmvjhmkwji7sfac35f5fi8l4pkha-python3.13-molecule-plugins-23.5.3-dist"
             }
           ],
-          "store_path": "/nix/store/6cwrshwzg2xss3pf4qwyz68nrpi1fjqg-python3.12-molecule-plugins-23.5.3"
+          "store_path": "/nix/store/w3r837iv0xz59d9vskg6swl618ni6ly3-python3.13-molecule-plugins-23.5.3"
         }
       }
     },
-    "python312Packages.molecule@25.5.0": {
+    "python313Packages.molecule@25.5.0": {
       "last_modified": "2025-06-20T02:24:11Z",
-      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#python312Packages.molecule",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#python313Packages.molecule",
       "source": "devbox-search",
       "version": "25.5.0",
       "systems": {
@@ -551,57 +551,57 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/1zybhpp3syk6iydjy2kak82m82pwmvld-python3.12-molecule-25.5.0",
+              "path": "/nix/store/j793i62ybnlqpcx2fxgiqr35pq58qw8x-python3.13-molecule-25.5.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/cchzh1bga0zizdqjnz4ay2zh9d536bqy-python3.12-molecule-25.5.0-dist"
+              "path": "/nix/store/nsqagriicnd148qz0ff51jgjzmjvkykb-python3.13-molecule-25.5.0-dist"
             }
           ],
-          "store_path": "/nix/store/1zybhpp3syk6iydjy2kak82m82pwmvld-python3.12-molecule-25.5.0"
+          "store_path": "/nix/store/j793i62ybnlqpcx2fxgiqr35pq58qw8x-python3.13-molecule-25.5.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/9rblcyhjl3s1wvl4fbsa60nbv7i39wxj-python3.12-molecule-25.5.0",
+              "path": "/nix/store/cl742gfia4yda323cn17xjqwid5dkwbl-python3.13-molecule-25.5.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/rlwpkq54imamm0vm1yh0ias234kqqclj-python3.12-molecule-25.5.0-dist"
+              "path": "/nix/store/5n8pgrz55xdzzi8y0pjdx753szfnimrf-python3.13-molecule-25.5.0-dist"
             }
           ],
-          "store_path": "/nix/store/9rblcyhjl3s1wvl4fbsa60nbv7i39wxj-python3.12-molecule-25.5.0"
+          "store_path": "/nix/store/cl742gfia4yda323cn17xjqwid5dkwbl-python3.13-molecule-25.5.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/04hxl5gfpql89ix4cvlph04hnsl5wp19-python3.12-molecule-25.5.0",
+              "path": "/nix/store/iwhl2ry63ijxcsbcvi43piflr9ldd57a-python3.13-molecule-25.5.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/ariwayxas356vz2wjls0rf3myw7305vm-python3.12-molecule-25.5.0-dist"
+              "path": "/nix/store/ay74jbm8hnfcifawmim6aj3d0kcv2mcj-python3.13-molecule-25.5.0-dist"
             }
           ],
-          "store_path": "/nix/store/04hxl5gfpql89ix4cvlph04hnsl5wp19-python3.12-molecule-25.5.0"
+          "store_path": "/nix/store/iwhl2ry63ijxcsbcvi43piflr9ldd57a-python3.13-molecule-25.5.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/6j96s9a4s2nd2g908321x056688wpwnb-python3.12-molecule-25.5.0",
+              "path": "/nix/store/c65fcv7dc9bn1lpl0qk7l0dv483d8rm8-python3.13-molecule-25.5.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/7gi0nivg01qg66jskxaanbzvlfvmgln1-python3.12-molecule-25.5.0-dist"
+              "path": "/nix/store/nd4c5ygsgysr3k7zbwbb9hq3x6pcpqvh-python3.13-molecule-25.5.0-dist"
             }
           ],
-          "store_path": "/nix/store/6j96s9a4s2nd2g908321x056688wpwnb-python3.12-molecule-25.5.0"
+          "store_path": "/nix/store/c65fcv7dc9bn1lpl0qk7l0dv483d8rm8-python3.13-molecule-25.5.0"
         }
       }
     },
