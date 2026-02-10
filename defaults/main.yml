@@ -15,7 +15,7 @@ zoraxy_system_group: "zoraxy"
 # @var zoraxy_version:type: string
 # @var zoraxy_version:description: >
 # Zoraxy version to install
-zoraxy_version: "3.3.0"
+zoraxy_version: 3.3.1
 
 # @var zoraxy_service_state
 # @var zoraxy_service_state:type: string
