@@ -10,8 +10,10 @@
 
 ## ⚙️ Dependencies
 
+- feat\(ci\)!: Update renovatebot/github-action action \(v44.2.6 → v46.0.0\) [\#46](https://github.com/plopoyop/ansible-role-zoraxy/pull/46) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v44.2.5 → v44.2.6\) [\#44](https://github.com/plopoyop/ansible-role-zoraxy/pull/44) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v44.2.4 → v44.2.5\) [\#42](https://github.com/plopoyop/ansible-role-zoraxy/pull/42) ([plopoyop](https://github.com/plopoyop))
+- feat\(deps\): update pre-commit hook adrienverge/yamllint \(v1.37.1 → v1.38.0\) [\#41](https://github.com/plopoyop/ansible-role-zoraxy/pull/41) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update pre-commit hook ansible/ansible-lint \(v26.1.0 → v26.1.1\) [\#40](https://github.com/plopoyop/ansible-role-zoraxy/pull/40) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v44.2.3 → v44.2.4\) [\#39](https://github.com/plopoyop/ansible-role-zoraxy/pull/39) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\)!: Update pre-commit hook ansible/ansible-lint \(v25.9.2 → v26.1.0\) [\#38](https://github.com/plopoyop/ansible-role-zoraxy/pull/38) ([plopoyop](https://github.com/plopoyop))
@@ -22,6 +24,8 @@
 
 **Merged pull requests:**
 
+- feat\(deps\): update go-task \(3.45.5 → 3.48.0\) [\#47](https://github.com/plopoyop/ansible-role-zoraxy/pull/47) ([plopoyop](https://github.com/plopoyop))
+- feat\(deps\): update ansible-doctor \(8.1.1 → 8.2.0\) [\#43](https://github.com/plopoyop/ansible-role-zoraxy/pull/43) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update git \(2.51.2 → 2.52.0\) [\#36](https://github.com/plopoyop/ansible-role-zoraxy/pull/36) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update ansible-doctor \(8.0.1 → 8.1.1\) [\#35](https://github.com/plopoyop/ansible-role-zoraxy/pull/35) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\)!: Update pre-commit \(3.7.1 → 4.5.1\) [\#29](https://github.com/plopoyop/ansible-role-zoraxy/pull/29) ([plopoyop](https://github.com/plopoyop))
