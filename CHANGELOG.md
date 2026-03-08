@@ -12,6 +12,7 @@
 
 **Merged pull requests:**
 
+- fix\(deps\): update ansible-doctor \(8.2.0 → 8.2.1\) [\#54](https://github.com/plopoyop/ansible-role-zoraxy/pull/54) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update python313packages.ansible \(13.1.0 → 13.3.0\) [\#52](https://github.com/plopoyop/ansible-role-zoraxy/pull/52) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update git \(2.52.0 → 2.53.0\) [\#50](https://github.com/plopoyop/ansible-role-zoraxy/pull/50) ([plopoyop](https://github.com/plopoyop))
 
