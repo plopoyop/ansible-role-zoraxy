@@ -1,11 +1,16 @@
 # Changelog
 
-## [2.1.1](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.1) (2026-03-25)
+## [2.1.1](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.1) (2026-03-27)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2.1.0...2.1.1)
 
+## 🐛 Bug Fixes
+
+- remove unused actions [\#62](https://github.com/plopoyop/ansible-role-zoraxy/pull/62) ([plopoyop](https://github.com/plopoyop))
+
 ## ⚙️ Dependencies
 
+- fix\(deps\): update tobychui/zoraxy \(v3.3.1 → v3.3.2\) [\#60](https://github.com/plopoyop/ansible-role-zoraxy/pull/60) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.4 → v46.1.5\) [\#57](https://github.com/plopoyop/ansible-role-zoraxy/pull/57) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update pre-commit hook ansible/ansible-lint \(v26.2.0 → v26.3.0\) [\#56](https://github.com/plopoyop/ansible-role-zoraxy/pull/56) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.3 → v46.1.4\) [\#55](https://github.com/plopoyop/ansible-role-zoraxy/pull/55) ([plopoyop](https://github.com/plopoyop))
