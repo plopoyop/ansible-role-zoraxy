@@ -192,7 +192,7 @@ Zoraxy version to install
 #### Default value
 
 ```YAML
-zoraxy_version: 3.3.1
+zoraxy_version: 3.3.2
 ```
 
 ## Dependencies
