@@ -6,6 +6,7 @@
 
 ## ⚙️ Dependencies
 
+- feat\(ci\)!: Update hugo19941994/delete-draft-releases action \(v2.0.0 → v3.0.0\) [\#67](https://github.com/plopoyop/ansible-role-zoraxy/pull/67) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update pre-commit hook ansible/ansible-lint \(v26.3.0 → v26.4.0\) [\#66](https://github.com/plopoyop/ansible-role-zoraxy/pull/66) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.6 → v46.1.7\) [\#65](https://github.com/plopoyop/ansible-role-zoraxy/pull/65) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\): update jetify-com/devbox-install-action action \(v0.14.0 → v0.15.0\) [\#64](https://github.com/plopoyop/ansible-role-zoraxy/pull/64) ([plopoyop](https://github.com/plopoyop))
