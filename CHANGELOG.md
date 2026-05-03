@@ -19,6 +19,7 @@
 
 **Merged pull requests:**
 
+- feat\(deps\)!: Update python313Packages.molecule \(25.12.0 → 26.4.0\) [\#76](https://github.com/plopoyop/ansible-role-zoraxy/pull/76) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update podman \(5.8.1 → 5.8.2\) [\#75](https://github.com/plopoyop/ansible-role-zoraxy/pull/75) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update python313packages.ansible \(13.1.0 → 13.5.0\) [\#70](https://github.com/plopoyop/ansible-role-zoraxy/pull/70) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update ansible-doctor \(8.2.2 → 8.3.0\) [\#69](https://github.com/plopoyop/ansible-role-zoraxy/pull/69) ([plopoyop](https://github.com/plopoyop))
