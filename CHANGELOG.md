@@ -6,6 +6,7 @@
 
 ## ⚙️ Dependencies
 
+- fix\(deps\): update tobychui/zoraxy \(v3.3.2 → v3.3.3\) [\#83](https://github.com/plopoyop/ansible-role-zoraxy/pull/83) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.14 → v46.1.15\) [\#82](https://github.com/plopoyop/ansible-role-zoraxy/pull/82) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.13 → v46.1.14\) [\#78](https://github.com/plopoyop/ansible-role-zoraxy/pull/78) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.12 → v46.1.13\) [\#77](https://github.com/plopoyop/ansible-role-zoraxy/pull/77) ([plopoyop](https://github.com/plopoyop))
