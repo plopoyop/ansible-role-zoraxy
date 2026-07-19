@@ -12,6 +12,10 @@
 - fix\(ci\): update renovatebot/github-action action \(v46.1.15 → v46.1.16\) [\#87](https://github.com/plopoyop/ansible-role-zoraxy/pull/87) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\)!: Update actions/checkout action \(v6.0.3 → v7.0.0\) [\#85](https://github.com/plopoyop/ansible-role-zoraxy/pull/85) ([plopoyop](https://github.com/plopoyop))
 
+**Merged pull requests:**
+
+- feat\(deps\)!: Update python313Packages.molecule-plugins \(23.5.3 → 25.8.12\) [\#86](https://github.com/plopoyop/ansible-role-zoraxy/pull/86) ([plopoyop](https://github.com/plopoyop))
+
 ## [2.1.2](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.2) (2026-06-14)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2.1.1...2.1.2)
