@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- fix\(deps\): update ansible-doctor \(8.3.1 → 8.3.2\) [\#88](https://github.com/plopoyop/ansible-role-zoraxy/pull/88) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\)!: Update python313Packages.molecule-plugins \(23.5.3 → 25.8.12\) [\#86](https://github.com/plopoyop/ansible-role-zoraxy/pull/86) ([plopoyop](https://github.com/plopoyop))
 
 ## [2.1.2](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.2) (2026-06-14)
