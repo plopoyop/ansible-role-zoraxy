@@ -8,12 +8,14 @@
 
 - fix\(ci\): update renovatebot/github-action action \(v46.1.18 → v46.1.19\) [\#95](https://github.com/plopoyop/ansible-role-zoraxy/pull/95) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.17 → v46.1.18\) [\#93](https://github.com/plopoyop/ansible-role-zoraxy/pull/93) ([plopoyop](https://github.com/plopoyop))
+- feat\(deps\): update pre-commit hook ansible/ansible-lint \(v26.4.0 → v26.6.0\) [\#91](https://github.com/plopoyop/ansible-role-zoraxy/pull/91) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.16 → v46.1.17\) [\#90](https://github.com/plopoyop/ansible-role-zoraxy/pull/90) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.15 → v46.1.16\) [\#87](https://github.com/plopoyop/ansible-role-zoraxy/pull/87) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\)!: Update actions/checkout action \(v6.0.3 → v7.0.0\) [\#85](https://github.com/plopoyop/ansible-role-zoraxy/pull/85) ([plopoyop](https://github.com/plopoyop))
 
 **Merged pull requests:**
 
+- fix\(deps\): update podman \(5.8.2 → 5.8.3\) [\#89](https://github.com/plopoyop/ansible-role-zoraxy/pull/89) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update ansible-doctor \(8.3.1 → 8.3.2\) [\#88](https://github.com/plopoyop/ansible-role-zoraxy/pull/88) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\)!: Update python313Packages.molecule-plugins \(23.5.3 → 25.8.12\) [\#86](https://github.com/plopoyop/ansible-role-zoraxy/pull/86) ([plopoyop](https://github.com/plopoyop))
 
