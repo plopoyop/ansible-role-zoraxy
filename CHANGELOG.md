@@ -1,11 +1,12 @@
 # Changelog
 
-## [2.1.3](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.3) (2026-07-26)
+## [2.1.3](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.3) (2026-08-02)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2.1.2...2.1.3)
 
 ## ⚙️ Dependencies
 
+- feat\(ci\): update renovatebot/github-action action \(v46.1.20 → v46.2.0\) [\#101](https://github.com/plopoyop/ansible-role-zoraxy/pull/101) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.19 → v46.1.20\) [\#96](https://github.com/plopoyop/ansible-role-zoraxy/pull/96) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.18 → v46.1.19\) [\#95](https://github.com/plopoyop/ansible-role-zoraxy/pull/95) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.1.17 → v46.1.18\) [\#93](https://github.com/plopoyop/ansible-role-zoraxy/pull/93) ([plopoyop](https://github.com/plopoyop))
