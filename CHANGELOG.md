@@ -10,6 +10,7 @@
 - fix\(ci\): update renovatebot/github-action action \(v46.2.4 → v46.2.5\) [\#108](https://github.com/plopoyop/ansible-role-zoraxy/pull/108) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.2.2 → v46.2.4\) [\#107](https://github.com/plopoyop/ansible-role-zoraxy/pull/107) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update tobychui/zoraxy \(v3.3.3 → v3.3.4\) [\#105](https://github.com/plopoyop/ansible-role-zoraxy/pull/105) ([plopoyop](https://github.com/plopoyop))
+- feat\(deps\): update pre-commit hook ansible/ansible-lint \(v26.6.0 → v26.8.0\) [\#104](https://github.com/plopoyop/ansible-role-zoraxy/pull/104) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.2.1 → v46.2.2\) [\#103](https://github.com/plopoyop/ansible-role-zoraxy/pull/103) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.2.0 → v46.2.1\) [\#102](https://github.com/plopoyop/ansible-role-zoraxy/pull/102) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\): update renovatebot/github-action action \(v46.1.20 → v46.2.0\) [\#101](https://github.com/plopoyop/ansible-role-zoraxy/pull/101) ([plopoyop](https://github.com/plopoyop))
