@@ -25,6 +25,7 @@
 **Merged pull requests:**
 
 - feat\(deps\): update go-task \(3.48.0 → 3.52.0\) [\#106](https://github.com/plopoyop/ansible-role-zoraxy/pull/106) ([plopoyop](https://github.com/plopoyop))
+- feat\(deps\): update python313packages.ansible \(14.0.0 → 14.1.0\) [\#100](https://github.com/plopoyop/ansible-role-zoraxy/pull/100) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update git \(2.54.0 → 2.55.0\) [\#99](https://github.com/plopoyop/ansible-role-zoraxy/pull/99) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update podman \(5.8.3 → 5.8.4\) [\#98](https://github.com/plopoyop/ansible-role-zoraxy/pull/98) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update ansible-doctor \(8.3.2 → 8.3.3\) [\#97](https://github.com/plopoyop/ansible-role-zoraxy/pull/97) ([plopoyop](https://github.com/plopoyop))
