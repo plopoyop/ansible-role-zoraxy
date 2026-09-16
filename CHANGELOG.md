@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.1.3](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.3) (2026-09-15)
+## [2.1.3](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.3) (2026-09-16)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2.1.2...2.1.3)
 
@@ -26,6 +26,7 @@
 
 - feat\(deps\): update go-task \(3.48.0 → 3.52.0\) [\#106](https://github.com/plopoyop/ansible-role-zoraxy/pull/106) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update git \(2.54.0 → 2.55.0\) [\#99](https://github.com/plopoyop/ansible-role-zoraxy/pull/99) ([plopoyop](https://github.com/plopoyop))
+- fix\(deps\): update podman \(5.8.3 → 5.8.4\) [\#98](https://github.com/plopoyop/ansible-role-zoraxy/pull/98) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update ansible-doctor \(8.3.2 → 8.3.3\) [\#97](https://github.com/plopoyop/ansible-role-zoraxy/pull/97) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\): update python313packages.molecule \(26.4.0 → 26.6.0\) [\#94](https://github.com/plopoyop/ansible-role-zoraxy/pull/94) ([plopoyop](https://github.com/plopoyop))
 - feat\(deps\)!: Update python313Packages.ansible \(13.7.0 → 14.0.0\) [\#92](https://github.com/plopoyop/ansible-role-zoraxy/pull/92) ([plopoyop](https://github.com/plopoyop))
