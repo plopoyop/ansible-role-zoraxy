@@ -11,6 +11,7 @@
 
 **Merged pull requests:**
 
+- feat\(deps\): update ansible-doctor \(8.3.3 → 8.4.0\) [\#112](https://github.com/plopoyop/ansible-role-zoraxy/pull/112) ([plopoyop](https://github.com/plopoyop))
 - fix\(deps\): update podman \(5.8.4 → 5.8.6\) [\#110](https://github.com/plopoyop/ansible-role-zoraxy/pull/110) ([plopoyop](https://github.com/plopoyop))
 
 ## [2.1.3](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.3) (2026-09-16)
