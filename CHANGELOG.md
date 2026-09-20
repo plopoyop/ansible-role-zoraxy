@@ -9,6 +9,10 @@
 - feat\(ci\)!: Update ubuntu \(24.04 → 26.04\) [\#115](https://github.com/plopoyop/ansible-role-zoraxy/pull/115) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\): update renovatebot/github-action action \(v46.2.6 → v46.3.1\) [\#111](https://github.com/plopoyop/ansible-role-zoraxy/pull/111) ([plopoyop](https://github.com/plopoyop))
 
+**Merged pull requests:**
+
+- fix\(deps\): update podman \(5.8.4 → 5.8.6\) [\#110](https://github.com/plopoyop/ansible-role-zoraxy/pull/110) ([plopoyop](https://github.com/plopoyop))
+
 ## [2.1.3](https://github.com/plopoyop/ansible-role-zoraxy/tree/2.1.3) (2026-09-16)
 
 [Full Changelog](https://github.com/plopoyop/ansible-role-zoraxy/compare/2.1.2...2.1.3)
