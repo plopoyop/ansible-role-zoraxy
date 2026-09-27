@@ -1,8 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
     "packages": [
+<<<<<<< HEAD
         "python313Packages.ansible@14.1.0",
         "ansible-doctor@8.4.0",
+=======
+        "python313Packages.ansible@14.3.1",
+        "ansible-doctor@8.3.3",
+>>>>>>> f621dbd (feat(deps): update python313packages.ansible (14.1.0 → 14.3.1))
         "ansible-lint@25.8.2",
         "git@2.55.0",
         "glibcLocales@2.40-66",
