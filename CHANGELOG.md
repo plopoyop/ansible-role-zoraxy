@@ -6,6 +6,7 @@
 
 ## ⚙️ Dependencies
 
+- feat\(deps\): update pre-commit hook ansible/ansible-lint \(v26.8.0 → v26.9.0\) [\#117](https://github.com/plopoyop/ansible-role-zoraxy/pull/117) ([plopoyop](https://github.com/plopoyop))
 - fix\(ci\): update renovatebot/github-action action \(v46.3.1 → v46.3.3\) [\#116](https://github.com/plopoyop/ansible-role-zoraxy/pull/116) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\)!: Update ubuntu \(24.04 → 26.04\) [\#115](https://github.com/plopoyop/ansible-role-zoraxy/pull/115) ([plopoyop](https://github.com/plopoyop))
 - feat\(ci\): update renovatebot/github-action action \(v46.2.6 → v46.3.1\) [\#111](https://github.com/plopoyop/ansible-role-zoraxy/pull/111) ([plopoyop](https://github.com/plopoyop))
