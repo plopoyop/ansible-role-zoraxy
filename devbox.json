@@ -8,7 +8,7 @@
         "glibcLocales@2.40-66",
         "go-task@3.53.1",
         "podman@5.8.6",
-        "pre-commit@4.5.1",
+        "pre-commit@4.6.2",
         "python313Packages.molecule@26.6.0",
         "python313Packages.molecule-plugins@25.8.12",
         "yamllint@1.37.1"
