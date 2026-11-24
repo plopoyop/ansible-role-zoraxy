@@ -1,5 +1,16 @@
 # plopoyop.zoraxy
 
+> [!WARNING]
+> **This role is deprecated and this repository is archived.** It now lives in the
+> [`plopoyop.personal_network_gateway`](https://github.com/plopoyop/ansible-collection-personal_network_gateway)
+> collection as `plopoyop.personal_network_gateway.zoraxy`, with the same variables:
+>
+> ```shell
+> ansible-galaxy collection install plopoyop.personal_network_gateway
+> ```
+>
+> Then replace `plopoyop.zoraxy` with `plopoyop.personal_network_gateway.zoraxy` in your playbooks.
+
 Install & configure Zoraxy reverse proxy
 
 ## Table of content
